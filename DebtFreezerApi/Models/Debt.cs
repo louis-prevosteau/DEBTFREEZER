@@ -1,4 +1,7 @@
-﻿namespace DebtFreezerApi.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DebtFreezerApi.Models
 {
     public enum DebtType
     {
@@ -14,9 +17,10 @@
         ACTIVE,
         PAID_OFF
     }
-
+    [Table("dettes")]
     public class Debt
     {
+        [Key]
         public int Id { get; set; }
 
         public string Creditor { get; set; }
@@ -33,6 +37,7 @@
 
         public DebtStatus Status { get; set; } = DebtStatus.ACTIVE;
 
+        [ForeignKey("User")]
         public int UserId { get; }
         public User User { get; }
     }

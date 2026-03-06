@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DebtFreezerApi.Models
 {
+    [Table("challenge")]
     public class Challenge
     {
         public int Id { get; set; }

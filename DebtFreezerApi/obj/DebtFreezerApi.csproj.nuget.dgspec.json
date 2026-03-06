@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj": {}
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj": {
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
         "projectName": "DebtFreezerApi",
-        "projectPath": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,26 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.13, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.6.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
