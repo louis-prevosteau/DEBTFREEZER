@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DebtFreezerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+120a7ac6ee89a038f42a006a2697c844bf4d106e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525e29acc8798a76d86d1fa1d863f86fbcca2f1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DebtFreezerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DebtFreezerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
