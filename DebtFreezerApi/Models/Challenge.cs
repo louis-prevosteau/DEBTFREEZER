@@ -7,11 +7,14 @@ namespace DebtFreezerApi.Models
         public int Id { get; set; }
 
         [Required]
+        public string Name { get; set; }
+
+        [Required]
         public decimal TargetAmount { get; set; }
 
         [Required]
         public DateTime DueDate { get; set; }
 
-        public List<User> Users { get; }
+        public List<User> Users { get; set; }
     }
 }
