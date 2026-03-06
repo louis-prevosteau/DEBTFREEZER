@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\createpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\createpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\createdebtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\createdebtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\debtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\debtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\dtos\\challengedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:dtos\\challengedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|c:\\users\\administrateur\\documents\\debtfreezer\\debtfreezerapi\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CA7F52-6BC3-6E71-B49E-746458930A70}|DebtFreezerApi.csproj|solutionrelative:models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,54 +90,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\PaymentDto.cs",
+              "RelativeToolTip": "Dtos\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:21:22.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreatePaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\CreatePaymentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreatePaymentDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\CreatePaymentDto.cs",
+              "RelativeToolTip": "Dtos\\CreatePaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:18:07.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateDebtDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\CreateDebtDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateDebtDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\CreateDebtDto.cs",
+              "RelativeToolTip": "Dtos\\CreateDebtDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:00:10.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DebtDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\DebtDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DebtDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\DebtDto.cs",
+              "RelativeToolTip": "Dtos\\DebtDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:54:22.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:52:50.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChallengeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\ChallengeDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ChallengeDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\ChallengeDto.cs",
+              "RelativeToolTip": "Dtos\\ChallengeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:49:00.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:47:23.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Challenge.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Challenge.cs",
               "RelativeDocumentMoniker": "Models\\Challenge.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Challenge.cs",
               "RelativeToolTip": "Models\\Challenge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T15:15:52.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Models\\Payment.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Payment.cs",
               "RelativeToolTip": "Models\\Payment.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T15:12:21.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Debt.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Debt.cs",
               "RelativeDocumentMoniker": "Models\\Debt.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\Debt.cs",
               "RelativeToolTip": "Models\\Debt.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T14:30:56.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T14:24:25.935Z",
               "EditorCaption": ""
             }
           ]

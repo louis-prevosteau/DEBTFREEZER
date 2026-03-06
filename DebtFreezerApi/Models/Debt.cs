@@ -33,7 +33,7 @@
 
         public DebtStatus Status { get; set; } = DebtStatus.ACTIVE;
 
-        public int UserId { get; }
-        public User User { get; }
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }
