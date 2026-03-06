@@ -40,5 +40,6 @@ namespace DebtFreezerApi.Models
         [ForeignKey("User")]
         public int UserId { get; }
         public User User { get; }
+
     }
 }

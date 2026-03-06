@@ -15,8 +15,11 @@ namespace DebtFreezerApi.Models
         [Required]
         public string Email { get; set; }
 
+        [Required]
+        public string Password { get; set; }
+
         public float TotalDebt { get; set; }
 
-        public List<Challenge> Challenges { get; }
+        public List<Challenge> Challenges { get; set; }
     }
 }
