@@ -2493,11 +2493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
       "projectName": "DebtFreezerApi",
-      "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
+      "projectPath": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\DebtFreezerApi.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\DEBTFREEZER\\DebtFreezerApi\\obj\\",
+      "outputPath": "C:\\Users\\Administrateur\\Documents\\DEBTFREEZER\\DebtFreezerApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
