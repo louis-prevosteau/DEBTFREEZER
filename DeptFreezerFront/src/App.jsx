@@ -2,8 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Authentication from './pages/authentication'
+import Debts from './pages/debts'
+
+function PrivateRoute({ children }) {
+  const token = localStorage.getItem("token");
+
+  return token ? children : <Navigate to="/auth" replace />;
+}
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +18,14 @@ function App() {
   return (
     <>
       <Routes>
+        <Route
+          path="/"
+          element={
+            <PrivateRoute>
+              <Debts />
+            </PrivateRoute>
+          }
+        />
         <Route path='auth' element={<Authentication />} />
       </Routes>
     </>

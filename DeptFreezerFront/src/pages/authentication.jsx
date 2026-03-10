@@ -9,6 +9,7 @@ import {
   Paper,
   Link
 } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 
 const Authentication = () => {
@@ -17,11 +18,13 @@ const Authentication = () => {
     const [password, setPassword] = useState('');
     const [isSignup, setIsSignup] = useState(false);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (isSignup) dispatch(register({ fullName, email, password }));
         else dispatch(login({ email, password }));
+        navigate('/');
     };
 
     return (
