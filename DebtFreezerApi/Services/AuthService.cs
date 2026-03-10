@@ -16,7 +16,6 @@ namespace DebtFreezerApi.Services
 
         public User Register(RegisterDto dto)
         {
-            // Optional: check if email is already registered
             if (_context.Utilisateurs.Any(u => u.Email == dto.Email))
                 throw new Exception("Email already in use.");
 

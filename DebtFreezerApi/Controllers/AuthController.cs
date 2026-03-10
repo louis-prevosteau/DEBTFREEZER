@@ -23,7 +23,7 @@ namespace DebtFreezerApi.Controllers
         {
             var user = _authService.Register(dto);
             var token = _jwtService.GenerateToken(user);
-            return Ok(new { token });
+            return Ok(new { token, user });
         }
 
         [HttpPost("login")]
@@ -35,7 +35,7 @@ namespace DebtFreezerApi.Controllers
                 return Unauthorized();
             }
             var token = _jwtService.GenerateToken(user);
-            return Ok(new { token });
+            return Ok(new { token, user });
         }
     }
 }
