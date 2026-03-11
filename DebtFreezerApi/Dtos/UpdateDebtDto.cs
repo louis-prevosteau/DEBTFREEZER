@@ -2,10 +2,8 @@
 
 namespace DebtFreezerApi.Dtos
 {
-    public class DebtDto
+    public class UpdateDebtDto
     {
-        public int Id { get; set; }
-
         public string Creditor { get; set; }
 
         public decimal OriginalAmount { get; set; }
@@ -18,8 +16,6 @@ namespace DebtFreezerApi.Dtos
 
         public DebtType Type { get; set; }
 
-        public DebtStatus Status { get; set; }
-
-        public User User { get; set; }
+        public int UserId { get; set; }
     }
 }

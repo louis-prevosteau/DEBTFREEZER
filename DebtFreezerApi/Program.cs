@@ -1,9 +1,13 @@
 using DebtFreezerApi.Data;
+using DebtFreezerApi.Models;
+using DebtFreezerApi.Repositories;
+using DebtFreezerApi.Repository;
 using DebtFreezerApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,13 +15,29 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 var connectionString = builder.Configuration.GetConnectionString("MySqlConnection")
     ?? throw new  InvalidOperationException("ConnectionString: MySqlConnection est manquant ");
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo {Title =  "DebtFreezerAPI", Version ="v1", Description = "API qui permet de tracker les dettes, créer des plans de remboursement collaboratifs, et se motiver en groupe pour devenir debt-free" });
 
+});
+
+//Enregistrer les repos
+builder.Services.AddScoped<IRepository<Debt>, DebtsRepository>();
+builder.Services.AddScoped<IUSerRepository, UserRepository>();
+
+
+//Enregistrer les services
 builder.Services.AddScoped<AuthService>();
 
+builder.Services.AddScoped<IDebtService, DebtService>();
+
 builder.Services.AddSingleton<JwtService>();
+
+
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
@@ -65,6 +85,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.MapGet("/", () => Results.Redirect("/swagger"));
+
 }
 
 // Configure the HTTP request pipeline.
@@ -76,3 +98,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+internal interface IRepository
+{
+}

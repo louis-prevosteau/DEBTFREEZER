@@ -38,8 +38,8 @@ namespace DebtFreezerApi.Models
         public DebtStatus Status { get; set; } = DebtStatus.ACTIVE;
 
         [ForeignKey("User")]
-        public int UserId { get; }
-        public User User { get; }
+        public int UserId { get; set; }
+        public User User { get; set; }
 
     }
 }

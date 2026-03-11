@@ -6,7 +6,7 @@ using Microsoft.Extensions.Validation;
 
 namespace DebtFreezerApi.Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUSerRepository
     {
         private readonly ApplicationDbContext _context;
 
@@ -15,18 +15,18 @@ namespace DebtFreezerApi.Repositories
             _context = context;
         }
 
-        public async Task<User> GetById(int id)
+        public async Task<User> GetByIdAsync(int id)
         {
             var user = await _context.Utilisateurs.FindAsync(id);
             return user;
         }
 
-        public async Task<List<User>> GetAll()
+        public async Task<List<User>> GetAllAsync()
         {
             return await _context.Utilisateurs.ToListAsync();
         }
 
-        public async Task<User> Create(RegisterDto dto)
+        public async Task<User> CreateAsync(RegisterDto dto)
         {
             var user = new User
             {
@@ -40,6 +40,11 @@ namespace DebtFreezerApi.Repositories
             await _context.SaveChangesAsync();
 
             return user;
+        }
+
+        public async Task<bool> ExistsAsync(int id)
+        {
+            return  await _context.Utilisateurs.AnyAsync(u => u.Id == id);
         }
     }
 }
