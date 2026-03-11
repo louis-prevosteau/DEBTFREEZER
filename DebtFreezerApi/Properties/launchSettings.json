@@ -2,11 +2,13 @@
   "profiles": {
     "http": {
       "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "lauchUrl":  "swagger",
+      "applicationUrl": "http://localhost:5223",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5223"
     },
     "Container (Dockerfile)": {
       "commandName": "Docker",

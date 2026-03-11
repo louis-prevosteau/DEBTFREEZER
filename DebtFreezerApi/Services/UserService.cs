@@ -14,7 +14,7 @@ namespace DebtFreezerApi.Services
 
         public async Task<List<User>> GetAll()
         {
-            return await _userRepository.GetAll();
+            return await _userRepository.GetAllAsync();
         }
     }
 }
