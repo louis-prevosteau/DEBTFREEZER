@@ -5,6 +5,7 @@ import './App.css'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Authentication from './pages/authentication'
 import Debts from './pages/debts'
+import Navbar from './components/navbar'
 
 function PrivateRoute({ children }) {
   const token = localStorage.getItem("token");
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <Routes>
         <Route
           path="/"
