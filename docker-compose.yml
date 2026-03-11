@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: debtfreezerdb
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppassword
+    ports:
+      - "3306:3306" 
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    # networks:
+    #   - debtfreezer_network
+
+  backend:
+    build: ./DebtFreezerApi
+    container_name: aspnet_api
+    ports:
+      - "5000:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: server=mysql;port=3306;database=debtfreezerdb;user=root;password=root
+    volumes:
+      - ./DebtFreezerApi:/app:cached
+      - dotnet_cache:/root/.nuget/packages
+    command: ["dotnet", "run", "--urls=http://0.0.0.0:8080"]
+    # networks:
+    #   - debtfreezer_network
+
+  frontend:
+    build: ./DeptFreezerFront
+    container_name: react_vite
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ./DeptFreezerFront:/app
+      - /app/node_modules
+    environment:
+      # Important : pointer vers le service backend, pas localhost
+      VITE_API_URL: http://backend:8080
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+
+volumes:
+  mysql_data:
+  dotnet_cache:
+
+# networks:
+#   debtfreezer_network:
