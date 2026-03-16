@@ -22,15 +22,19 @@ namespace DebtFreezerApi.Models
     {
         [Key]
         public int Id { get; set; }
-
+        [Required(ErrorMessage = "Creditor is required.")]
         public string Creditor { get; set; }
 
+
+        [Range(0, double.MaxValue, ErrorMessage = "Le montant doit être supérieur à 0")]
         public decimal OriginalAmount { get; set; }
 
         public decimal RemainingAmount { get; set; }
 
+        [Range(1, 100, ErrorMessage = "Value for {0} must be between {1} and {2}.")]
         public float InterestRate { get; set; }
 
+        
         public DateTime DueDate { get; set; }
 
         public DebtType Type { get; set; }
